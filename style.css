@@ -53,7 +53,14 @@ h1 {
     transform: rotate(360deg);
 } */
 
+.input-container {
+    margin: 0 auto;
+    width: 80%;
+    /* text-align: center; */
+}
+
 form {
+    /* width: 100%; */
     /* margin: auto; */
     /* min-height: 10vh; */
     display: flex;
@@ -81,11 +88,13 @@ button:hover {
 }
 
 input {
-    font-size: 30px;
+    /* display: flex; */
+    font-size: 28px;
     border: none;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     padding: 0.5rem;
+    width: 250px;
 }
 
 input:focus {
@@ -226,7 +235,7 @@ ul {
         align-items: center; */
         /* background-color: white;
         color: black; */
-        min-width: 30%;
+        /* min-width: 30%; */
         /* max-width: 60%; */
         /* max-height: 12vh; */
         /* padding-left: 0.5rem; */
